@@ -1,0 +1,56 @@
+.war-wrapp{
+    position: relative;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+            display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+    color: white;
+}
+.war-title-wrapp{
+    margin-top: 80px;
+    text-align: center;
+    .war-title{
+        font-weight: 500;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .day-wrapp{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+                justify-content: space-between;
+        h5{
+            margin-right: 10px;
+        }
+        h5:last-child{
+            margin-right: 0;
+        }
+    }
+
+}
+.war-info{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
