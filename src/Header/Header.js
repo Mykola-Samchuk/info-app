@@ -41,7 +41,7 @@ export default function Header() {
           </ul>
         </nav>
       </header>
-
+      {/* add basename to router */}
       <Routes basename="/info-app">
         <Route path="/" element={<Weather />} />
         <Route path="/war" element={<War />} />
