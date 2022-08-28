@@ -24,17 +24,17 @@ export default function Header() {
         <nav>
           <ul className="header-nav">
             <li className="nav-wrapp-link">
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" to="/info-app">
                 Weather
               </Link>
             </li>
             <li className="nav-wrapp-link">
-              <Link className="nav-link" to="/war">
+              <Link className="nav-link" to="/info-app/war">
                 War Info
               </Link>
             </li>
             <li className="nav-wrapp-link">
-              <Link className="nav-link" to="/currency">
+              <Link className="nav-link" to="/info-app/currency">
                 Сurrency
               </Link>
             </li>
