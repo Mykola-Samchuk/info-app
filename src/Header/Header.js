@@ -42,10 +42,10 @@ export default function Header() {
         </nav>
       </header>
 
-      <Routes>
+      <Routes basename="/info-app">
         <Route path="/info-app" element={<Weather />} />
-        <Route path="/war" element={<War />} />
-        <Route path="/currency" element={<Currency/>} />
+        <Route path="/info-app/war" element={<War />} />
+        <Route path="/info-app/currency" element={<Currency/>} />
       </Routes>
     </>
   );
