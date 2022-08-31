@@ -3,10 +3,9 @@ import { Routes, Route, Link } from "react-router-dom";
 import "./header.scss";
 import Weather from "../Weather/Weather";
 import War from "../War/War";
-// import Сurrency from "../Сurrency/Сurrency";
 import Currency from "../Currency/Сurrency";
+import NotFound from "../NotFound/NotFound";
 import { useState } from "react";
-import { useEffect } from "react";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -46,6 +45,7 @@ export default function Header() {
         <Route path="/info-app" element={<Weather />} />
         <Route path="/info-app/war" element={<War />} />
         <Route path="/info-app/currency" element={<Currency/>} />
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
     </>
   );
