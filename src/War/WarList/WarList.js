@@ -26,8 +26,8 @@ export default function WarList(props) {
     });
   };
   combineProps();
- // return combine props to list
 
+ // return combine props to list
   return (
     <>
       {item.map((item) => {
