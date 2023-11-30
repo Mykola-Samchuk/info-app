@@ -18,6 +18,7 @@ export default function Weather() {
   const dateFormat = `${date[0]+date[1]}.${date[3]+date[4]}.${date[8]+date[9]}`
 
   // Get Weather API
+  let empty = null
   useEffect(() => {
     fetch(
       `${wheatherValue.url}weather?id=${cityId}&appid=${wheatherValue.appid}`
